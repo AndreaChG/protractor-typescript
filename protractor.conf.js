@@ -9,9 +9,9 @@ exports.config = {
         "browserName": "chrome"
     },
     params: {
-		username: "gueststudentqa01",
-		userdomain:"gmail.com",
-        password: "GuestStudendqa01$",
+		username: "yourUserName",
+		userdomain:"theDomain.com",
+        password: "YourSecretPasswordHere",
         file: "beemo.jpg"
     },
     directConnect: true,
