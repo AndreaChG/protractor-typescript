@@ -1,0 +1,34 @@
+{
+  "name": "protractor-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf Report",
+    "postinstall": "webdriver-manager update",
+    "protractor":"protractor protractor.conf.js",
+    "e2e": "failsafe clean protractor",
+    "lint": "tslint \"e2e/**/*.ts\""
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/compiler": "^6.0.5",
+    "@angular/core": "^6.0.5",
+    "rxjs": "^6.2.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~2.8.7",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/node": "~10.3.3",
+    "codelyzer": "~4.3.0",
+    "jasmine-core": "~3.1.0",
+    "protractor": "5.3.2",
+    "npm-failsafe": "^0.2.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-beautiful-reporter": "^1.2.4",
+    "ts-js-path-resolve": "0.0.9",
+    "ts-node": "~6.1.1",
+    "tslint": "~5.10.0",
+    "typescript": "~2.9.2",
+    "rimraf": "^2.5.4"
+  }
+}
